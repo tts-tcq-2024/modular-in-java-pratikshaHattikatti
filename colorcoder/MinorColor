@@ -1,6 +1,6 @@
 package colorcoder;
 
-public class MinorColorCode {
+public class MinorColor {
 enum MinorColor {
         BLUE(0),
         ORANGE(1),
