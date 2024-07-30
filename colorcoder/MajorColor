@@ -1,6 +1,6 @@
 package colorcoder;
 
-public class MajorColorCode {
+public class MajorColor{
 enum MajorColor {
         WHITE(0),
         RED(1),
