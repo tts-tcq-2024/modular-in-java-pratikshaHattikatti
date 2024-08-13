@@ -1,4 +1,4 @@
-package colourcode;
+package colorcoder;
 
 public class TestNumber {
 	
