@@ -5,17 +5,17 @@ public class ColorPair {
     private MajorColor majorColor;
     private MinorColor minorColor;
     
-    final String MajorColorNames[] = {
+     String MajorColorNames[] = {
             "White", "Red", "Black", "Yellow", "Violet"
         };
     
-        final int numberOfMajorColors = MajorColorNames.length;
+         int numberOfMajorColors = MajorColorNames.length;
         
-        final String MinorColorNames[] = {
+         String MinorColorNames[] = {
             "Blue", "Orange", "Green", "Brown", "Slate"
         };
         
-        final int numberOfMinorColors = MinorColorNames.length;
+         int numberOfMinorColors = MinorColorNames.length;
         
     public ColorPair(MajorColor major, MinorColor minor)
     {
