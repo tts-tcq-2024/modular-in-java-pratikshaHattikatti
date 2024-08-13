@@ -1,5 +1,4 @@
 package colorcoder;
-import colourcode.*;
 
 public class Main {
 
