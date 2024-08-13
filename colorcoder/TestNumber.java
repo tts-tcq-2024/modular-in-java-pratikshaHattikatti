@@ -4,7 +4,7 @@ public class TestNumber {
 	
 	ColorPair colorPair = new ColorPair();
 	
-    static void testNumberToPair(int pairNumber,
+    public void testNumberToPair(int pairNumber,
             MajorColor expectedMajor,
             MinorColor expectedMinor)
         {
@@ -14,7 +14,7 @@ public class TestNumber {
             assert(colorPair.getMinor() == expectedMinor);
         }
     
-    static void testPairToNumber(
+    public void testPairToNumber(
             MajorColor major,
             MinorColor minor,
             int expectedPairNumber)
