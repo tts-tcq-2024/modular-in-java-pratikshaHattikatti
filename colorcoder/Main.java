@@ -6,7 +6,6 @@ public class Main {
     	TestNumber testNumber = new TestNumber();
     	testNumber.testNumberToPair(4, MajorColor.WHITE, MinorColor.BROWN);
     	testNumber.testNumberToPair(5, MajorColor.WHITE, MinorColor.SLATE);
-    
     	testNumber.testPairToNumber(MajorColor.BLACK, MinorColor.ORANGE, 12);
     	testNumber.testPairToNumber(MajorColor.VIOLET, MinorColor.SLATE, 25);
     }
