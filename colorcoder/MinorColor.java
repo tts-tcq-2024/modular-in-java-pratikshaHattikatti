@@ -13,7 +13,7 @@ public enum MinorColor {
     int getIndex() {
         return index;
     }
-    public static MinorColor fromIndex(int index) {
+    public MinorColor fromIndex(int index) {
         for(MinorColor color: MinorColor.values()) {
             if(color.getIndex() == index) {
                 return color;
