@@ -17,7 +17,7 @@ public class TestNumber {
             MinorColor minor,
             int expectedPairNumber)
         {
-            int pairNumber = colorPair.GetPairNumberFromColor(major, minor);
+            int pairNumber = ColorPair.GetPairNumberFromColor(major, minor);
             System.out.println("Got pair number " + pairNumber);
             assert(pairNumber == expectedPairNumber);
         }
