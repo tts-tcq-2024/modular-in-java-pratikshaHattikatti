@@ -2,8 +2,6 @@ package colorcoder;
 
 public class TestNumber {
 	
-	ColorPair colorPair = new ColorPair();
-	
     public void testNumberToPair(int pairNumber,
             MajorColor expectedMajor,
             MinorColor expectedMinor)
